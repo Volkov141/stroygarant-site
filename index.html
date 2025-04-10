@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Строй Гарант — Строительная компания</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Хедер -->
+  <header class="bg-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="flex items-center space-x-3">
+        <img src="logo.jpg" alt="Логотип СтройГарант" class="h-10 w-10 object-contain">
+        <h1 class="text-2xl font-bold text-blue-600">Строй Гарант</h1>
+      </div>
+      <nav class="space-x-6">
+        <a href="#about" class="text-gray-600 hover:text-blue-600">О нас</a>
+        <a href="#projects" class="text-gray-600 hover:text-blue-600">Проекты</a>
+        <a href="#contact" class="text-gray-600 hover:text-blue-600">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Главный блок -->
+ <section class="relative h-96">
+    <img src="images/2.png" alt="Проект фасадного здания" class="absolute inset-0 w-full h-full object-cover">
+    <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+      <h2 class="text-white text-4xl md:text-5xl font-bold text-center px-4">Надёжное строительство под ключ</h2>
+    </div>
+  </section>
+
+  <!-- О нас -->
+  <section id="about" class="py-16 bg-gray-100">
+    <div class="max-w-5xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-semibold mb-6">О компании Строй Гарант</h3>
+      <p class="text-gray-700 text-lg">«Строй Гарант» - строительная компания, занимающаяся всем спектром строительных услуг любой сложности.
+Свою деятельность компания начала ещё в 2012 году. За это время мы собрали команду первоклассных специалистов и накопили большой опыт. Все вместе это позволяет нам успешно реализовывать даже самые сложные и нестандартные проекты.
+</p>
+    </div>
+  </section>
+
+  <!-- Проекты -->
+  <section id="projects" class="py-16">
+    <div class="max-w-7xl mx-auto px-4">
+      <h3 class="text-3xl font-semibold text-center mb-10">Наши проекты</h3>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+          <img src="images/project1.jpg"alt="Проект 1" class="w-full h-60 object-cover">
+          <div class="p-4">
+            <h4 class="font-bold text-xl mb-2">Современное здание</h4>
+            <p class="text-gray-600">Архитектурный проект с уникальным дизайном и просторной террасой.</p>
+          </div>
+        </div>
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+          <img src="images/12.png" alt="Проект 2" class="w-full h-60 object-cover">
+          <div class="p-4">
+            <h4 class="font-bold text-xl mb-2">Многофункциональный торговый центр</h4>
+            <p class="text-gray-600">Полный цикл от фундамента до отделки и благоустройства территории.</p>
+          </div>
+        </div>
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+          <img src="images/project3.jpg" alt="Проект 3" class="w-full h-60 object-cover">
+          <div class="p-4">
+            <h4 class="font-bold text-xl mb-2">Световые арки</h4>
+			<p class="text-gray-600">Инсталляция с подсветкой в центре Москвы.</p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Контакты -->
+  <section id="contact" class="py-16 bg-gray-100">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-semibold mb-6">Связаться с нами</h3>
+      <p class="mb-4 text-gray-700">Позвоните нам или напишите, чтобы обсудить ваш проект.</p>
+      <p class="text-lg font-medium text-blue-600">+7 (903) 169-22-55</p>
+      <p class="text-gray-700"> aleks-aniss@yandex.ru</p>
+    </div>
+  </section>
+
+  <!-- Подвал -->
+  <footer class="bg-white border-t py-6 text-center text-gray-500 text-sm">
+    &copy; 2025 Строй Гарант. Все права защищены.
+  </footer>
+</body>
+</html>
